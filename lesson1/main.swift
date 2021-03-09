@@ -82,7 +82,7 @@ func fibonocci1 (n:Int)->Int{
 }
 print(fibonocci1(n: 10))
 
-                // Задания 6.
+                // Задания 6
 
 var numberOfArray: [Int] = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 var p = 2
