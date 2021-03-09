@@ -72,6 +72,26 @@ import Foundation
 var numberOfArray: [Int] = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 var p = 2
 
-for remove in stride(from: 1, to: numberOfArray.count, by: p){
-    print(remove)
+//for remove in stride(from: 1, to: numberOfArray.count, by: p){
+//    print(remove)
+//}
+
+for r in numberOfArray where p < r{
+    p = r
+    break
 }
+
+let resultP = p
+print(resultP)
+
+for c in numberOfArray where p < c{
+    p = c
+    break
+    }
+print(p)
+    for d in numberOfArray where p < d{
+        p = d
+        break
+    }
+print(p)
+
